@@ -1,1 +1,1 @@
-% After segmentation with ilastik and export probability maps (.h5 files). These Matlab scripts convert probability map into binary images and analyze the correlation between local curvature and calium intensity ratio. 
+After segmentation with ilastik and exporting probability maps (.h5 files), these two Matlab scripts convert probability maps into binary images and analyze the correlation between local curvature and calium intensity ratio. 
