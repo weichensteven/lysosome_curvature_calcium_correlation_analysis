@@ -104,7 +104,6 @@ loopclose = 1;              % 0 - if open boundaries | 1 - if closed boundaries
 [shape_details, Icurv] = curvature(I, obj_num, boundaryPoint, curvatureThresh, bp_tangent, ...
                                  interpdmin, loopclose);
         
-%% Plot curvature
 X = shape_details.XY(:,1);
 Y = shape_details.XY(:,2);
 Z = zeros(size(X));
