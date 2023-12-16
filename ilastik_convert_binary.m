@@ -4,7 +4,7 @@ close all;clear;clc;
 for th=[0.2:0.1:0.9]; %probability threshold, you can specify one threshold that gives best segmentation
 Amin = 100; Amax = 5000; %minimum and maximum area
 ROI_name = '2-1_ROI02'; %change
-dir_path = ['/Users/weichen/Desktop/Jan Lab/Kai_lyso_calcium/images/2-1 crop/',ROI_name,'/'];
+dir_path = ['/Users/weichen/Desktop/Kai_lyso_calcium/images/2-1 crop/',ROI_name,'/'];
 
 im_name_base = [ROI_name,'_lys'];
 
