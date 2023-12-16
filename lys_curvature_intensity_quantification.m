@@ -5,10 +5,10 @@ addpath('/Users/weichen/Desktop/Jan Lab/Kai_lyso_calcium/github_repo');
 % file path for curvature measure and visualization function written by Preetham Manjunatha
 % https://www.mathworks.com/matlabcentral/fileexchange/96982-curvature-measure-and-visualization
 %% Inputs
-im_name_base = '2-4_ROI10';
+im_name_base = '2-1_ROI02';
 Amin = 100; Amax = 5000; %minimum and maximum area when converted to bw image
 th=0.8; % Probability threshold
-dir_root = ['/Users/weichen/Desktop/Jan Lab/Kai_lyso_calcium/images/2-4 crop/',im_name_base,'/']; %input folder path
+dir_root = ['/Users/weichen/Desktop/Jan Lab/Kai_lyso_calcium/images/2-1 crop/',im_name_base,'/']; %input folder path
 dir_write1 =[dir_root,'Curv_Color_ Outline2/']; 
 dir_write2 =[dir_root,'IntensityRatio_Color_Outline2/'];
 %dir_write3 =[dir_root,'IntensityCal_Color_outline/']; %only calcium
